@@ -1,4 +1,4 @@
-c
+
 //convertir el clousure en una clase 
 
 class EstudianteClase {
@@ -13,7 +13,7 @@ class EstudianteClase {
     this.cursosCursados = cursosCursados || [];
   }
   
-  set setMatricular  (curso) {
+ /* set setMatricular  (curso) {
     
     this.cursosMatriculados.push(curso)
   }
@@ -46,9 +46,9 @@ class EstudianteClase {
 
   get getAgregarnota(){
     return this.cursosCursados
-  }
+  }*/
 
- /*set setAgregarnota (curso ){
+ set setAgregarnota (curso ){
     const cursoObj = {curso:curso.curso , nota:curso.nota, estado:''};
   
     if(curso.nota >= 70) {
@@ -62,7 +62,7 @@ class EstudianteClase {
  
  get getAgregarnota() {
   return this.cursosCursados;
- }*/
+ }
 
 }
 
