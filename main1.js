@@ -89,7 +89,7 @@ const segundolibro = new libro ('Por amor al dinero','Lilian bonilla',12800,7,20
 //console.log(segundolibro)
 
 const tercerlibro = new libro ('Mente millonaria','Albert pom',15300,4,2000)
-//console.log(tercerlibro)
+//console.log(tercerlibro.getinfo())
 
 const cuartolibro = new libro ('Dinero y poder', 'Amy julians',22800,0,2012)
 //console.log(cuartolibro.getinfo())
@@ -127,7 +127,7 @@ const primermcomic = new comic("Avengers", "Timoti ryan", 7850, 0, 1987, "caroli
  //console.log(cuartocomic)
 
 
-primerlibro.anio = 69
+primerlibro.anio = 1969
 //console.log(`El anio ahora es ${primerlibro.anio}`)
 
 primerlibro.cantidad = 999
