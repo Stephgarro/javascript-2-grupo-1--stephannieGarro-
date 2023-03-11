@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+ul {
+  margin: 0;
+  text-align: center;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 44px;
+}
+
+a{
+  text-decoration: none;
+  color: hsl(0, 0%, 0%);
+}
+
+.sidebar {
+  background-color: hwb(0 29% 5%);
+  color: #070505;
+  width: 15%;
+  height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+
+.icon-more {
+  width: 30px;
+  display: block;
+}
+
+.icon-more-one {
+  position: absolute;
+  left: 18px;
+  top: 132px;
+
+}
+
+.icon-more-two{
+  position: absolute;
+  left: 18px;
+  top: 74px;
+}
+
+.icon-eye {
+  position: absolute;
+  left: 18px;
+  top: 195px;
+}
+
+.icon-eye-one {
+  position: absolute;
+  top: 256px;
+  left: 18px;
+}
