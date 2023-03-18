@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 25px;
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  text-align: center;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 44px;
+}
+
+a{
+  text-decoration: none;
+  color: hsl(0, 0%, 0%);
+}
+.log{
+  width: 32px;
+  position: absolute;
+  left: 15px;
+}
+
+.sidebar {
+  background-color: hwb(51 18% 0%);
+  color: #070505;
+  width: 15%;
+  height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+
+.icon {
+  width: 30px;
+  position:absolute;
+  display: block;
+}
