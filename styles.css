@@ -5,6 +5,8 @@ body {
 h1 {
   margin: 0;
   margin-bottom: 40px;
+  font-size: 25px;
+  text-align: center;
 }
 
 ul {
@@ -22,9 +24,14 @@ a{
   text-decoration: none;
   color: hsl(0, 0%, 0%);
 }
+.log{
+  width: 32px;
+  position: absolute;
+  left: 15px;
+}
 
 .sidebar {
-  background-color: hwb(0 29% 5%);
+  background-color: hwb(51 18% 0%);
   color: #070505;
   width: 15%;
   height: 100vh;
@@ -32,32 +39,8 @@ a{
   margin: 0;
 }
 
-.icon-more {
+.icon {
   width: 30px;
+  position:absolute;
   display: block;
-}
-
-.icon-more-one {
-  position: absolute;
-  left: 18px;
-  top: 132px;
-
-}
-
-.icon-more-two{
-  position: absolute;
-  left: 18px;
-  top: 74px;
-}
-
-.icon-eye {
-  position: absolute;
-  left: 18px;
-  top: 195px;
-}
-
-.icon-eye-one {
-  position: absolute;
-  top: 256px;
-  left: 18px;
 }
