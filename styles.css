@@ -27,7 +27,7 @@ a{
 .log{
   width: 32px;
   position: absolute;
-  left: 15px;
+  left: -1px;
 }
 
 .sidebar {
@@ -40,7 +40,7 @@ a{
 }
 
 .icon {
-  width: 30px;
-  position:absolute;
-  display: block;
+  width: 23px;
+  position: absolute;
+  left: 15px;
 }
